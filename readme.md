@@ -1,35 +1,55 @@
-# MS-600: Building Applications and Solutions with Microsoft 365 Core Services
+MS-600
+ Building Applications and Solutions with Microsoft 365 Core Services
 
-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
-
-## What are we doing?
-
-- To support this course, we will need to make frequent updates to the course content to keep it current with the Microsoft 365 services used in the course.  We are publishing the lab instructions and lab files on GitHub to allow for open contributions between the course authors and MCTs to keep the content current with changes in the Microsoft 365 platform.
-
-- We hope that this brings a sense of collaboration to the labs like we've never had before - when Microsoft 365 services changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source.  Help your fellow MCTs.
-
-## How should I use these files relative to the released MOC files?
-
-- The instructor handbook and PowerPoints are still going to be your primary source for teaching the course content.
-
-- These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files.
-
-- It will be recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Microsoft 365 services, and get the latest files for their delivery.
-
-## What about changes to the student handbook?
-
-- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
-
-## How do I contribute?
-
-- Any MCT can submit a pull request to the code or content in the GitHub repro, Microsoft and the course author will triage and include content and lab code changes as needed.
-
-- You can submit bugs, changes, improvement and ideas.  Find a new Microsoft 365 feature before we have?  Submit a new demo!
-
-## Notes
-
-### Classroom Materials
-
-It is strongly recommended that MCTs and Partners access these materials and in turn, provide them separately to students.  Pointing students directly to GitHub to access Lab steps as part of an ongoing class will require them to access yet another UI as part of the course, contributing to a confusing experience for the student. An explanation to the student regarding why they are receiving separate Lab instructions can highlight the nature of an always-changing cloud-based interface and platform. Microsoft Learning support for accessing files on GitHub and support for navigation of the GitHub site is limited to MCTs teaching this course only.
+| Lab 01 | (180 Min)                                                    |
+| ------ | ------------------------------------------------------------ |
+|        | 01-Student-lab-manual.md                                     |
+|        | 02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md |
+|        | 03-Exercise-2-Implementing-authentication.md                 |
+|        | 04-Exercise-3-Implementing-application-that-supports-B2B.md  |
+|        | 05-Exercise-4-Configuring-permissions-to-consume-an-API.md   |
+|        | 06-Exercise-5-Implementing-authorization-to-consume-an-API.md |
+|        | 07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md |
+| Lab 02 | (240 Min)                                                    |
+|        | 01-Student-lab-manual.md                                     |
+|        | 02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md |
+|        | 03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md |
+|        | 04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph.md |
+|        | 05-Exercise-4-Reduce-traffic-with-batched-requests.md        |
+|        | 06-Exercise-5-Understand-throttling-in-Microsoft-Graph.md    |
+|        | 07-Exercise-6-Querying-user-data-from-Microsoft-Graph.md     |
+| Lab 03 | (240 Min)                                                    |
+|        | 01-Student-lab-manual.md                                     |
+|        | 02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx).md |
+|        | 03-Exercise-2-Working-with-the-web-part-property-pane.md     |
+|        | 04-Exercise-3-Creating-SharePoint-Framework-Extensions.md    |
+|        | 05-Exercise-4-Creating-a-command-set-extension.md            |
+|        | 06-Exercise-5-Creating-a-field-customizer-extension.md       |
+|        | 07-Exercise-6-Deploying-a-SharePoint-Framework-solution.md   |
+|        | 08-Exercise-7-Deploying-SPFx-solutions-to-Microsoft-Teams.md |
+| Lab 04 |                                                              |
+|        | 01-Student-lab-manual.md                                     |
+|        | 02-Exercise-1-Collecting-user-input-with-task-modules.md     |
+|        | 03-Exercise-2-Using-adaptive-cards-and-deep-links-in-task-modules.md |
+|        | 04-Exercise-3-Using-task-modules-with-bots.md                |
+|        | 05-Exercise-4-Creating-outgoing-webhooks.md                  |
+|        | 06-Exercise-5-Creating-incoming-webhooks.md                  |
+|        | 07-Exercise-6-Create-a-custom-personal-tab.md                |
+|        | 08-Exercise-7-Create-a-custom-channel-tab.md                 |
+|        | 09-Exercise-8-Creating-action-command-messaging-extensions.md |
+|        | 10-Exercise-9-Creating-search-command-messaging-extensions.md |
+|        | 11-Exercise-10-Creating-conversational-bots.md               |
+|        | 12-Exercise-11-Bots-in-channels-and-group-chats.md           |
+|        | 13-Exercise-12-Sending-proactive-messages-from-bots.md       |
+|        | 14-Exercise-13-Getting-started-with-the-teamwork-endpoint.md |
+|        | 15-Exercise-14-Configure-a-built-in-tab-with-Microsoft-Graph.md |
+|        | 16-Exercise-15-Use-Microsoft-Graph-to-post-to-the-activity-feed.md |
+|        | 17-Exercise-16-Implement-single-sign-on-for-Microsoft-Teams-apps.md |
+|        | 18-Exercise-17-Implement-single-sign-on-with-Microsoft-Teams-tabs.md |
+|        | 19-Exercise-18-Implement-single-sign-on-with-Microsoft-Teams-bots.md |
+| Lab 05 | (180 Min)                                                    |
+|        | 01-Student-lab-manual.md                                     |
+|        | 02-Exercise-1-Understanding-fundamental-components-and-types-of-Office-Add-ins.md |
+|        | 03-Exercise-2-Understanding-Office-JavaScript-APIs.md        |
+|        | 04-Exercise-3-Understanding-customization-of-add-ins.md      |
+|        | 05-Exercise-4-Understanding-actionable-messages.md           |
