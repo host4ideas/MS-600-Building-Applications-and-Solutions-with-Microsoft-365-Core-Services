@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://felixmartinezblockdocschain.sharepoint.com/sites/TailwindTraders/Lists/Lab02_exercise04_extension/AllItems.aspx",
+      "customActions": {
+        "62c76ce5-11be-46bd-be42-9812983db131": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "commandSetDemo": {
+      "pageUrl": "https://felixmartinezblockdocschain.sharepoint.com/sites/TailwindTraders/Lists/Lab02_exercise04_extension/AllItems.aspx",
+      "customActions": {
+        "62c76ce5-11be-46bd-be42-9812983db131": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}

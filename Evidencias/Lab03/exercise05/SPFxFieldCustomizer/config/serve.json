@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://felixmartinezblockdocschain.sharepoint.com/sites/TailwindTraders/Lists/Work%20Status/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "f7fe37df-597f-4a53-b526-addc03b9a0d7",
+          "properties": {
+            "greenMinLimit": "85", "yellowMinLimit": "70"
+          }
+        }
+      }
+    },
+    "helloFieldCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "f7fe37df-597f-4a53-b526-addc03b9a0d7",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
