@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
   "id": "56cb88d0-1798-11ec-ac85-f1521e9588f9",
-  "version": "4",
+  "version": "5",
   "packageName": "youtubeplayer",
   "developer": {
     "name": "Contoso",
-    "websiteUrl": "https://c42e-2-154-188-39.ngrok.io",
-    "privacyUrl": "https://c42e-2-154-188-39.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://c42e-2-154-188-39.ngrok.io/tou.html"
+    "websiteUrl": "https://ced8-2-154-188-39.ngrok.io",
+    "privacyUrl": "https://ced8-2-154-188-39.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://ced8-2-154-188-39.ngrok.io/tou.html"
   },
   "name": {
     "short": "YouTube Player",
@@ -28,7 +28,7 @@
     {
       "entityId": "5224ed58-ecc0-462e-940d-9e8f9b5e216b",
       "name": "YouTube Player 1",
-      "contentUrl": "https://c42e-2-154-188-39.ngrok.io/youTubePlayer1Tab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "contentUrl": "https://ced8-2-154-188-39.ngrok.io/youTubePlayer1Tab/?name={loginHint}&tenant={tid}&theme={theme}",
       "scopes": [
         "personal"
       ]
@@ -42,7 +42,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "c42e-2-154-188-39.ngrok.io"
+    "ced8-2-154-188-39.ngrok.io"
   ],
   "showLoadingIndicator": false
 }

@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useTeams, getQueryVariable } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
-
 export const VideoSelectorTaskModule = () => {
 
     const [{ inTeams, theme, context }] = useTeams();

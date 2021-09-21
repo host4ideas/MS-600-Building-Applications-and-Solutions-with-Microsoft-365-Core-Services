@@ -18,7 +18,7 @@ export const YouTubePlayer1Tab = () => {
         } else {
             return window.location.protocol + "//" + window.location.host;
         }
-    }
+    };
 
     const onShowVideo = (): void => {
         const taskModuleInfo = {
@@ -28,7 +28,7 @@ export const YouTubePlayer1Tab = () => {
             height: 700
         };
         microsoftTeams.tasks.startTask(taskModuleInfo);
-    }
+    };
 
     const onChangeVideo = (): void => {
         const taskModuleInfo = {
@@ -60,6 +60,35 @@ export const YouTubePlayer1Tab = () => {
         }
     }, [context]);
 
+    const onChangeVideoAdaptiveCard = (): void => {
+        // load adaptive card
+        const adaptiveCard: any = require("./YouTubeSelectorCard.json");
+        // update card with current video ID
+        adaptiveCard.body.forEach((container: any) => {
+            if (container.type === "Container") {
+                container.items.forEach((item: any) => {
+                    if (item.id && item.id === "youTubeVideoId") {
+                        item.value = youTubeVideoId;
+                    }
+                });
+            }
+        });
+
+        const taskModuleInfo = {
+            title: "YouTube Video Selector",
+            card: adaptiveCard,
+            width: 350,
+            height: 250
+        };
+
+        const submitHandler = (err: string, result: any): void => {
+            console.log(`Submit handler - err: ${err}`);
+            setYouTubeVideoId(result.youTubeVideoId);
+        };
+
+        microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);
+    };
+
     /**
      * The render() method to create the UI of the tab
      */
@@ -80,6 +109,7 @@ export const YouTubePlayer1Tab = () => {
                         <div>
                             <Button content="Change Video ID" onClick={() => onChangeVideo()}></Button>
                             <Button content="Show Video" primary onClick={() => onShowVideo()}></Button>
+                            <Button content="Change Video ID (AdaptiveCard)" onClick={() => onChangeVideoAdaptiveCard()}></Button>
                         </div>
                     </div>
                 </Flex.Item>
