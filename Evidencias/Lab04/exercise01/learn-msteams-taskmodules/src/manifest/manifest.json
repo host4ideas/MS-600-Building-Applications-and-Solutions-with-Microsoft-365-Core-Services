@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
-  "id": "{{APPLICATION_ID}}",
-  "version": "5",
+  "id": "822bbf4a-1e3d-4b44-979f-2e70eea3de9a",
+  "version": "4",
   "packageName": "{{PACKAGE_NAME}}",
   "developer": {
     "name": "Contoso",

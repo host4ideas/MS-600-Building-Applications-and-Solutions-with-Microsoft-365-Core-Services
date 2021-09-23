@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "822bbf4a-1e3d-4b44-979f-2e70eea3de9a",
+  "version": "1.0.1",
+  "packageName": "{{PACKAGE_NAME}}",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://{{PUBLIC_HOSTNAME}}",
+    "privacyUrl": "https://{{PUBLIC_HOSTNAME}}/privacy.html",
+    "termsOfUseUrl": "https://{{PUBLIC_HOSTNAME}}/tou.html"
+  },
+  "name": {
+    "short": "Planet Messaging",
+    "full": "Planet Messaging"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [
+    {
+      "botId": "822bbf4a-1e3d-4b44-979f-2e70eea3de9a",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "planetExpanderAction",
+          "type": "action",
+          "title": "Planet Expander",
+          "description": "Lookup the details of a planet.",
+          "context": [
+            "compose",
+            "message"
+          ],
+          "fetchTask": true
+        },
+        {
+          "id": "planetExpanderSearch",
+          "type": "query",
+          "title": "Planet Lookup",
+          "description": "Search for a planet.",
+          "context": [
+            "compose"
+          ],
+          "parameters": [
+            {
+              "name": "searchKeyword",
+              "description": "Enter 'inner','outer' or the name of a specific planet",
+              "title": "Planet"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "{{PUBLIC_HOSTNAME}}"
+  ],
+  "showLoadingIndicator": false
+}

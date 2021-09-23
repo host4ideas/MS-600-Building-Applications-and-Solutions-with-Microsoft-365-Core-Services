@@ -1,14 +1,14 @@
 {
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
   "manifestVersion": "1.8",
-  "id": "56cb88d0-1798-11ec-ac85-f1521e9588f9",
-  "version": "5",
+  "id": "822bbf4a-1e3d-4b44-979f-2e70eea3de9a",
+  "version": "4",
   "packageName": "youtubeplayer",
   "developer": {
     "name": "Contoso",
-    "websiteUrl": "https://ced8-2-154-188-39.ngrok.io",
-    "privacyUrl": "https://ced8-2-154-188-39.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://ced8-2-154-188-39.ngrok.io/tou.html"
+    "websiteUrl": "https://youtubeplayer.azurewebsites.net",
+    "privacyUrl": "https://youtubeplayer.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://youtubeplayer.azurewebsites.net/tou.html"
   },
   "name": {
     "short": "YouTube Player",
@@ -28,13 +28,35 @@
     {
       "entityId": "5224ed58-ecc0-462e-940d-9e8f9b5e216b",
       "name": "YouTube Player 1",
-      "contentUrl": "https://ced8-2-154-188-39.ngrok.io/youTubePlayer1Tab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "contentUrl": "https://youtubeplayer.azurewebsites.net/youTubePlayer1Tab/?name={loginHint}&tenant={tid}&theme={theme}",
       "scopes": [
         "personal"
       ]
     }
   ],
-  "bots": [],
+  "bots": [
+    {
+      "botId": "822bbf4a-1e3d-4b44-979f-2e70eea3de9a",
+      "scopes": [
+        "personal"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false,
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "MentionMe",
+              "description": "Sends message with @mention of the sender"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "connectors": [],
   "composeExtensions": [],
   "permissions": [
@@ -42,7 +64,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "ced8-2-154-188-39.ngrok.io"
+    "youtubeplayer.azurewebsites.net"
   ],
   "showLoadingIndicator": false
 }
