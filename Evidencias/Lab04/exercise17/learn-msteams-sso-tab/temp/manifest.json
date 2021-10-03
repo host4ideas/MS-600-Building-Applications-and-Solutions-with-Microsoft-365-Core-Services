@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "3d3d6e10-2102-11ec-b95e-6d5b5a24f47f",
+  "version": "0.0.1",
+  "packageName": "learnmsteamsssotab",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://f2f2-2-154-188-39.ngrok.io",
+    "privacyUrl": "https://f2f2-2-154-188-39.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://f2f2-2-154-188-39.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "SSO Teams Tab",
+    "full": "SSO Teams Tab"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://f2f2-2-154-188-39.ngrok.io/ssoTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "f2f2-2-154-188-39.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "508bd3e6-4f8a-40ee-b300-bc1469ce793e",
+    "resource": "api://f2f2-2-154-188-39.ngrok.io/508bd3e6-4f8a-40ee-b300-bc1469ce793e"
+  }
+}

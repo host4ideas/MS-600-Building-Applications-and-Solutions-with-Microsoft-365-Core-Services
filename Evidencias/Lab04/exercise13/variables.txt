@@ -1,0 +1,21 @@
+Application (client) ID
+6308efe8-0942-4582-ad9b-af740d27badc
+
+Object ID
+8f54e671-ab52-4dd0-ac0a-7cbcaee3e018
+
+Directory (tenant) ID
+ba66d52c-6ffe-4b50-8609-d699c2196066
+
+ssoSecret
+Qs87Q~QXjC_Utjb7Ji0-C-ok7BuXoZafFRvVS
+
+clientSecret
+7Fh7Q~YCy-6U~5JjJM6D0ZUqPk-8YMe70Pom4
+
+App ID URI:
+api://REPLACE.ngrok.io/6308efe8-0942-4582-ad9b-af740d27badc
+
+api://84d8-2-154-188-39.ngrok.io/6308efe8-0942-4582-ad9b-af740d27badc
+
+https://84d8-2-154-188-39.ngrok.io

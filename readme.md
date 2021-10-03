@@ -4,20 +4,20 @@ MS-600
 | Lab 01 | (180 Min)                                                    |
 | ------ | ------------------------------------------------------------ |
 |        | 01-Student-lab-manual.md                                     |
-|        | 02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md |
-|        | 03-Exercise-2-Implementing-authentication.md                 |
-|        | 04-Exercise-3-Implementing-application-that-supports-B2B.md  |
-|        | 05-Exercise-4-Configuring-permissions-to-consume-an-API.md   |
-|        | 06-Exercise-5-Implementing-authorization-to-consume-an-API.md |
-|        | 07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md |
+|        | [02-Exercise-1-Registering-an-application-in-Azure-Active-Directory.md](Evidencias/Lab01/exercise01/Evidencias_Exercise01.md) |
+|        | [03-Exercise-2-Implementing-authentication.md](Evidencias/Lab01/exercise01/Evidencias_Exercise02.md)                 |
+|        | [04-Exercise-3-Implementing-application-that-supports-B2B.md](Evidencias/Lab01/exercise01/Evidencias_Exercise03.md)  |
+|        | [05-Exercise-4-Configuring-permissions-to-consume-an-API.md](Evidencias/Lab01/exercise01/Evidencias_Exercise04.md)   |
+|        | [06-Exercise-5-Implementing-authorization-to-consume-an-API.md](Evidencias/Lab01/exercise01/Evidencias_Exercise05.md) |
+|        | [07-Exercise-6-Creating-a-service-to-access-Microsoft-Graph.md](Evidencias/Lab01/exercise01/Evidencias_Exercise06.md) |
 | Lab 02 | (240 Min)                                                    |
 |        | 01-Student-lab-manual.md                                     |
-|        | 02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md |
-|        | 03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md |
-|        | 04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph.md |
-|        | 05-Exercise-4-Reduce-traffic-with-batched-requests.md        |
-|        | 06-Exercise-5-Understand-throttling-in-Microsoft-Graph.md    |
-|        | 07-Exercise-6-Querying-user-data-from-Microsoft-Graph.md     |
+|        | [02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md](Evidencias/Lab02/exercise01/Evidencias_lab02_exercise01.md) |
+|        | [03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md](Evidencias/Lab02/exercise02/Evidencias_lab02_exercise02.md) |
+|        | [04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph.md](Evidencias/Lab02/exercise03/Evidencias_lab02_exercise03.md) |
+|        | [05-Exercise-4-Reduce-traffic-with-batched-requests.md](Evidencias/Lab02/exercise04/Evidencias_lab02_exercise04.md)        |
+|        | [06-Exercise-5-Understand-throttling-in-Microsoft-Graph.md](Evidencias/Lab02/exercise05/Evidencias_lab02_exercise05.md)    |
+|        | [07-Exercise-6-Querying-user-data-from-Microsoft-Graph.md](Evidencias/Lab02/exercise06/Evidencias_lab02_exercise06.md)     |
 | Lab 03 | (240 Min)                                                    |
 |        | 01-Student-lab-manual.md                                     |
 |        | 02-Exercise-1-Introduction-to-SharePoint-Framework-(SPFx).md |

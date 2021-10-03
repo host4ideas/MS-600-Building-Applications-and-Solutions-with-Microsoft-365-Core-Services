@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "03f71fe0-1d27-11ec-8884-e16edb958ec8",
+  "version": "1",
+  "packageName": "learnmsteamsteamwork",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://84d8-2-154-188-39.ngrok.io",
+    "privacyUrl": "https://84d8-2-154-188-39.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://84d8-2-154-188-39.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "MSGraph Playground",
+    "full": "MSGraph Playground"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://84d8-2-154-188-39.ngrok.io/msGraphTeamworkTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "84d8-2-154-188-39.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "6308efe8-0942-4582-ad9b-af740d27badc",
+    "resource": "api://444a-2-154-188-39.ngrok.io/6308efe8-0942-4582-ad9b-af740d27badc"
+  }
+}

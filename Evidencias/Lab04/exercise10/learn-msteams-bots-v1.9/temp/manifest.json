@@ -6,9 +6,9 @@
   "packageName": "com.contoso.conversationalbotv2",
   "developer": {
     "name": "Contoso",
-    "websiteUrl": "https://0bcc-2-154-188-39.ngrok.io",
-    "privacyUrl": "https://0bcc-2-154-188-39.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://0bcc-2-154-188-39.ngrok.io/tou.html"
+    "websiteUrl": "https://2b5a-2-154-188-39.ngrok.io",
+    "privacyUrl": "https://2b5a-2-154-188-39.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://2b5a-2-154-188-39.ngrok.io/tou.html"
   },
   "name": {
     "short": "Conversational Botv2",
@@ -65,7 +65,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "0bcc-2-154-188-39.ngrok.io"
+    "2b5a-2-154-188-39.ngrok.io"
   ],
   "showLoadingIndicator": false
 }

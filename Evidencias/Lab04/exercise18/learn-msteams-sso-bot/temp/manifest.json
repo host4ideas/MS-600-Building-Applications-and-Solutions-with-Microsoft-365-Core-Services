@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "7d47d820-210b-11ec-a4e6-abef0f8c29f0",
+  "version": "0.0.1",
+  "packageName": "learnmsteamsssobot",
+  "developer": {
+    "name": "Contoso",
+    "websiteUrl": "https://c048-2-154-188-39.ngrok.io",
+    "privacyUrl": "https://c048-2-154-188-39.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://c048-2-154-188-39.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "SSO Teams Bot",
+    "full": "SSO Teams Bot"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "9332a750-210b-11ec-a4e6-abef0f8c29f0",
+      "name": "SSO Bot",
+      "contentUrl": "https://c048-2-154-188-39.ngrok.io/Bot/ssoBot.html",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "508bd3e6-4f8a-40ee-b300-bc1469ce793e",
+      "needsChannelSelector": true,
+      "isNotificationOnly": false,
+      "scopes": [
+        "personal"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "personal"
+          ],
+          "commands": [
+            {
+              "title": "Help",
+              "description": "Shows help information"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "token.botframework.com",
+    ""
+  ],
+  "webApplicationInfo": {
+    "id": "508bd3e6-4f8a-40ee-b300-bc1469ce793e",
+    "resource": "api://botid-508bd3e6-4f8a-40ee-b300-bc1469ce793e"
+  },
+  "showLoadingIndicator": false
+}
