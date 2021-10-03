@@ -14,8 +14,8 @@ MS-600
 |        | 01-Student-lab-manual.md                                     |
 |        | [02-Exercise-1-Using-query-parameters-when-querying-Microsoft-Graph-via-HTTP.md](Evidencias/Lab02/exercise01/Evidencias_lab02_exercise01.md) |
 |        | [03-Exercise-2-Retrieve-and-control-information-returned-from-Microsoft-Graph.md](Evidencias/Lab02/exercise02/Evidencias_lab02_exercise02.md) |
-|        | 04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph |
-|        | [05-Exercise-4-Reduce-traffic-with-batched-requests.md](Evidencias/Lab02/exercise04/Evidencias_lab02_exercise04.md)        |
+|        | [04-Exercise-3-Using-change-notifications-and-track-changes-with-Microsoft-Graph](Evidencias/Lab02/exercise03/Evidencias_lab02_exercise03.md) |
+|        | 05-Exercise-4-Reduce-traffic-with-batched-requests.md       |
 |        | [06-Exercise-5-Understand-throttling-in-Microsoft-Graph.md](Evidencias/Lab02/exercise05/Evidencias_lab02_exercise05.md)    |
 |        | [07-Exercise-6-Querying-user-data-from-Microsoft-Graph.md](Evidencias/Lab02/exercise06/Evidencias_lab02_exercise06.md)     |
 | Lab 03 | (240 Min)                                                    |
