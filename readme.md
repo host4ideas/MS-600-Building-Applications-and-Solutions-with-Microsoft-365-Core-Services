@@ -43,7 +43,7 @@ MS-600
 |        | [13-Exercise-12-Sending-proactive-messages-from-bots.md](Evidencias/Lab04/exercise12/Evidencias_lab04_exercise12.md)       |
 |        | [14-Exercise-13-Getting-started-with-the-teamwork-endpoint.md](Evidencias/Lab04/exercise13/Evidencias_lab04_exercise13.md) |
 |        | 15-Exercise-14-Configure-a-built-in-tab-with-Microsoft-Graph.md |
-|        | [16-Exercise-15-Use-Microsoft-Graph-to-post-to-the-activity-feed.md](Evidencias/Lab04/exercise15/Evidencias_lab04_exercise15.md) |
+|        | 16-Exercise-15-Use-Microsoft-Graph-to-post-to-the-activity-feed.md |
 |        | [17-Exercise-16-Implement-single-sign-on-for-Microsoft-Teams-apps.md](Evidencias/Lab04/exercise16/Evidencias_lab04_exercise16.md) |
 |        | 18-Exercise-17-Implement-single-sign-on-with-Microsoft-Teams-tabs.md |
 |        | [19-Exercise-18-Implement-single-sign-on-with-Microsoft-Teams-bots.md](Evidencias/Lab04/exercise18/Evidencias_lab04_exercise18.md) |
